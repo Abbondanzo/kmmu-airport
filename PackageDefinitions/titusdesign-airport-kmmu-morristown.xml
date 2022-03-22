@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetPackage Version="0.1.0">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>KMMU</Title>
+		<Manufacturer/>
+		<Creator>Peter Abbondanzo</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\titusdesign-airport-kmmu-morristown\ContentInfo</AssetDir>
+			<OutputDir>ContentInfo\titusdesign-airport-kmmu-morristown</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="scenery">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\\sceneries</AssetDir>
+			<OutputDir>scenery\titusdesign\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
